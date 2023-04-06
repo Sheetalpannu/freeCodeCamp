@@ -6,6 +6,8 @@ on:
   push:
     branches:
       - 'prod-**'
+      # will remove this change in a bit, cant trigger the workflow without it
+      - 'fix/e2e'
     paths-ignore:
       - 'docs/**'
 
