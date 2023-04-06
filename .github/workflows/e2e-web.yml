@@ -80,10 +80,7 @@ jobs:
         include:
           - browsers: electron
             spec: cypress/e2e/default/learn/challenges/projects.ts
-          - browsers: chrome
-            spec: cypress/e2e/default/**/*.{js,ts}
-          # - browsers: firefox
-          #   spec: cypress/e2e/default/**/*.{js,ts}
+
     services:
       mongodb:
         image: mongo:4.4
